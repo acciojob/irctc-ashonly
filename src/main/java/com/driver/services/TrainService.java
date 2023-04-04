@@ -114,7 +114,7 @@ List<Train> trainList= new ArrayList<>();  // create train list optional
                passengerCount+=ticket.getPassengersList().size();
            }
        }
-        return 0;  // return passanger count
+        return passengerCount;
     }
 
     public Integer calculateOldestPersonTravelling(Integer trainId){
